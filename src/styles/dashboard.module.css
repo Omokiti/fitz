@@ -1,0 +1,44 @@
+
+@media(min-width:602px){
+
+.dashboard{
+width:100%;
+height:100vh;
+background:#F3E1DD;
+color:#1b1b1e;
+}
+.sidebar {
+        background-color: #f0f0f0;
+        width: 250px;
+        height:60vh;
+        padding: 20px;
+      }
+      
+      .nav {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      .list {
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+      
+      .list:hover {
+        color: #007bff;
+      }
+      .maindash{
+         padding: 20px;
+          }
+        .header {
+            background-color: #007bff;
+            color:#1b1b1e;
+            padding: 20px;
+            text-align: center;
+          }
+       .text{
+      margin-left: 120px;
+       }   
+          
+      }
+      
