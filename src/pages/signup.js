@@ -28,7 +28,7 @@ alert('User created Sucessfully')
 }
 return(
     <>
-    {/* <Backdrop>  */}
+   
         <div className={signups.centered}>
         <form onSubmit={handleSubmit} className={signups.form}>
         <h2 className={signups.header_form}>Sign Up</h2>
@@ -74,12 +74,12 @@ return(
                 />
                 <span className={signups.pswdtext}>Password must be at least 8 chars</span>
             </label>
-           <button className={signups.btn}>SignUp</button>
-           <p className={signups.linktext}>If you are already sign up,Kindly <a href="/login">Login </a></p>
+           <button className={signups.btn}>Sign Up</button>
+           <p className={signups.linktext}>If you are already sign up,Kindly <a href="/login" className={signups.login}>Login </a></p>
         </form>
       
         </div>
-        {/* </Backdrop> */}
+       
         </>
     )
 }
