@@ -10,6 +10,7 @@ import{ useRouter } from "next/router"
 const Sidenav = ({ children }) => {
 
 const router = useRouter()
+
 const logout = async(e)=>{
     e.preventDefault()
     try {
@@ -47,7 +48,7 @@ const logout = async(e)=>{
             <CgCalculator size={20} />
             </div>
           </Link>
-          <button onClick={logout}>
+          <button onClick={()=>logout}>
             <div className='bg-red-100 hover:bg-gray-200 cursor-pointer my-4 p-3 rounded-lg inline-block'>
             <HiOutlineLogout size={20} />
             </div>
