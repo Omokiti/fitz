@@ -88,17 +88,17 @@ export default function Home() {
                 <div>
               <Image src={person1} alt="workout image" width={150} height={150}/>
               <p className={styles.testify_header}>Farah Muhamed</p><br/>
-              <p className={styles.workout_text}>I started using this last year and I can<br/> confidently say it’s my best decision yet.</p>
+              <p className={styles.testi_text}>I started using this last year and I can<br/> confidently say it’s my best decision yet.</p>
               </div>
               <div className="workouts">
               <Image src={person2} alt="workout image" width={150} height={150}/>
               <p className={styles.testify_header}>Mark Johnson</p><br/>
-              <p className={styles.workout_text}>What more can I say than thanks to<br/> those who made this!</p>
+              <p className={styles.testi_text}>What more can I say than thanks to<br/> those who made this!</p>
               </div>
               <div className="workouts">
               <Image src={person3} alt="workout image" width={150} height={150}/>
               <p className={styles.testify_header}>Fegor Komaro</p><br/>
-              <p className={styles.workout_text}>I met all my fitness goal by using this<br/> playform alone.</p>
+              <p className={styles.testi_text}>I met all my fitness goal by using this<br/> playform alone.</p>
               </div>
                 </div>
               

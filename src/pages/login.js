@@ -14,7 +14,13 @@ const Login = () => {
     e.preventDefault();
     try {
       await login(email, password);
-      router.push("/dashboard");
+      if(!email || !password){
+        alert('Error')
+        router.push("/")
+      }else{
+        router.push("/dashboard");
+      }
+     
     } catch (error) {
       console.log(error);
     }
